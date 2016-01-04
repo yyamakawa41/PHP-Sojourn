@@ -1,0 +1,204 @@
+/* line 1, ../compass/sass/style.scss */
+body {
+  background-image: url("http://pq.b5z.net/zirw/317/i/u/10099375/i/darkgreenbg.png");
+  background-color: white;
+  color: #453925;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 9, ../compass/sass/style.scss */
+#header #header-upper {
+  height: 80px;
+}
+/* line 11, ../compass/sass/style.scss */
+#header #header-upper .header-inner {
+  text-align: right;
+  max-width: 980px;
+  margin: auto;
+}
+/* line 15, ../compass/sass/style.scss */
+#header #header-upper .header-inner a {
+  display: inline-block;
+  line-height: 32px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #a7b29b;
+  text-align: left;
+  padding-left: 0px;
+  padding-right: 2px;
+  padding-top: 20px;
+}
+/* line 29, ../compass/sass/style.scss */
+#header #header-lower {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-image: url(../images/tanbg.png);
+  background-color: #E2E4DB;
+}
+/* line 34, ../compass/sass/style.scss */
+#header #header-lower .header-inner {
+  max-width: 980px;
+  margin: auto;
+}
+/* line 37, ../compass/sass/style.scss */
+#header #header-lower .header-inner #menu {
+  float: right;
+}
+/* line 40, ../compass/sass/style.scss */
+#header #header-lower .header-inner #menu ul li {
+  float: left;
+  list-style-type: none;
+  padding: 12px;
+  margin-top: 20px;
+}
+/* line 45, ../compass/sass/style.scss */
+#header #header-lower .header-inner #menu ul li a {
+  font-weight: normal;
+  font-size: 14pt;
+  text-decoration: none;
+  color: #675538;
+  font-family: Ubuntu, sans-serif;
+  margin: 0px;
+}
+
+/* line 60, ../compass/sass/style.scss */
+#content {
+  max-width: 980px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+/* line 66, ../compass/sass/style.scss */
+#content #left-rail {
+  max-width: 690px;
+  float: left;
+}
+/* line 69, ../compass/sass/style.scss */
+#content #left-rail #body-header {
+  font-weight: bold;
+  font-size: 24pt;
+  color: #516d21;
+  font-family: sans-serif;
+  margin-bottom: 8px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dfdfdf;
+}
+/* line 77, ../compass/sass/style.scss */
+#content #left-rail #body-header div {
+  display: inline-block;
+}
+/* line 81, ../compass/sass/style.scss */
+#content #left-rail .body-content {
+  padding-top: 10px;
+  max-width: 690px;
+  border-bottom: 1px solid #a7b29b;
+  overflow: hidden;
+}
+/* line 87, ../compass/sass/style.scss */
+#content #left-rail .body-content.last {
+  border-bottom: none;
+}
+/* line 90, ../compass/sass/style.scss */
+#content #left-rail .body-content.no-image {
+  max-width: 100%;
+}
+/* line 95, ../compass/sass/style.scss */
+#content #left-rail .body-text {
+  font-size: 11pt;
+  line-height: 1.4;
+  font-family: Tahoma, sans-serif;
+  overflow: hidden;
+  width: 68%;
+  float: left;
+  padding: 1%;
+}
+/* line 103, ../compass/sass/style.scss */
+#content #left-rail .body-text a {
+  color: #aa2b00;
+  text-decoration: none;
+}
+/* line 107, ../compass/sass/style.scss */
+#content #left-rail .body-text.fine-print {
+  font-size: small;
+  font-style: italic;
+}
+/* line 113, ../compass/sass/style.scss */
+#content #left-rail .body-image {
+  width: 28%;
+  float: right;
+  padding: 1%;
+}
+/* line 118, ../compass/sass/style.scss */
+#content #left-rail .body-image-caption {
+  font-size: 8pt;
+  text-align: center;
+}
+/* line 122, ../compass/sass/style.scss */
+#content #left-rail .body-content-title {
+  font-weight: bold;
+  font-size: 24pt;
+  color: #516d21;
+  font-family: Ubuntu, sans-serif;
+  margin-bottom: 8px;
+}
+/* line 132, ../compass/sass/style.scss */
+#content #right-rail {
+  max-width: 220px;
+  float: right;
+  background-color: #e2e4db;
+  padding: 20px;
+}
+/* line 137, ../compass/sass/style.scss */
+#content #right-rail ul {
+  float: left;
+  margin: 0px 10px;
+  padding-left: 0px;
+}
+/* line 141, ../compass/sass/style.scss */
+#content #right-rail ul li {
+  float: left;
+  list-style-type: none;
+  padding: 10px 0px;
+}
+
+/* line 151, ../compass/sass/style.scss */
+#footer {
+  overflow: hidden;
+  background-image: url(../images/tanbg.png);
+}
+/* line 154, ../compass/sass/style.scss */
+#footer #footer-content {
+  overflow: hidden;
+  padding: 20px 0px;
+  max-width: 960px;
+  margin: auto;
+}
+/* line 159, ../compass/sass/style.scss */
+#footer #footer-content .footer-inner.left {
+  max-width: 690px;
+  float: left;
+}
+/* line 162, ../compass/sass/style.scss */
+#footer #footer-content .footer-inner.left ul {
+  text-align: left;
+  padding-left: 0px;
+}
+/* line 165, ../compass/sass/style.scss */
+#footer #footer-content .footer-inner.left ul li {
+  display: inline-block;
+  color: #675538;
+  list-style-type: none;
+  border-right: 1px #675538 solid;
+  padding: 0px 5px;
+  font-size: 14px;
+}
+/* line 172, ../compass/sass/style.scss */
+#footer #footer-content .footer-inner.left ul li.last {
+  border: none;
+}
+/* line 178, ../compass/sass/style.scss */
+#footer #footer-content .footer-inner.right {
+  float: right;
+}
